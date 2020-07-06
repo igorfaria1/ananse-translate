@@ -1,0 +1,67 @@
+{
+  "api": {
+    "errors": {
+      "noInternet": "No internet connection to fulfil request"
+    }
+  },
+  "screens": {
+    "login": {
+      "forgetPassword": "Esqueceu sua senha?",
+      "email": "E-mail",
+      "password": "Senha",
+      "login": "Entrar",
+      "create": "Crie uma conta",
+      "optionLogin": "ou entre com",
+      "loginErrorTitle": "Erro ao recuperar seus dados",
+      "loginErrorDescription": "Infelizmente, nao foi possível acessar seus dados no momento. Por favor, confirme suas credenciais e tente novamente",
+      "loginErrorMessage": "Não foi possível fazer o log-in no momento, por favor cheque suas credenciais",
+      "loading": "Carregando"
+    },
+    "register": {
+      "name": "Nome*",
+      "email": "Email*",
+      "cpf": "CPF/CNPJ",
+      "cep": "CEP",
+      "city": "Cidade",
+      "state": "Estado",
+      "street": "Logradoudo",
+      "password": "Senha*",
+      "confirm": "Confirmar Senha*",
+      "birthday": "Data de nascimento",
+      "female": "Feminino",
+      "male": "Masculino",
+      "genre": "Gênero",
+      "register": "Registrar",
+      "next": "Continuar",
+      "back": "Voltar",
+      "step1": "Acesso",
+      "step2": "Informações pessoais",
+      "step3": "Endereço",
+      "errors": {
+        "passwordConfirm": "A senha e a confirmação de senha precisam ser iguais",
+        "passwordErrors": {
+          "label": "Senha não possui os requisitos mínimos:",
+          "NECESSARY_CHARACTERS": "+ de 8 Caracteres",
+          "HAS_NUMERAL": "Números",
+          "HAS_UPPERANDLOWERCASE": "Letras Maiúsculas ",
+          "HAS_ESPECIAL_CHAR": "Caracteres Especiais"
+        },
+        "emailIvalid": "Digite um e-mail válido",
+        "cpf": "Insira um CPF/CNPJ valido",
+        "name": "Insira um nome com no minimo 3 caracteres",
+        "cep": "Insira um CEP válido"
+      }
+    },
+    "forgotPassword": {
+      "emailInput": "Insira seu e-mail registrado",
+      "recoverButton":"Recuperar senha",
+      "error": {
+        "invalidEmailTitle": "Email Invalido",
+        "invalidEmailText": "Por favor, insira um email valido",
+        "apiCallErrorTitle": "Não foi possível concluir sua requisição",
+        "apiCallErrorText":
+          "Não foi possível completar sua requisição no momento, por favor, tente novamente mais tarde"
+      }
+    }
+  }
+}
